@@ -15,8 +15,8 @@ login
 
 
 echo "You are running $0"
-echo "Created by Andrew."
-echo "Have a great day!"
+echo "Created by Andrew.$1"
+echo "Have a great day! $2"
 
 
 # End
