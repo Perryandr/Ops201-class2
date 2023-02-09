@@ -10,6 +10,10 @@ login () {
  exec last   
 }
 
+
+login
+
+
 echo "You are running $0"
 echo "Created by Andrew."
 echo "Have a great day!"
