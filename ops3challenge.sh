@@ -5,16 +5,23 @@
 # Date of lastest revision: 02/08/2023
 # Purpose: Print a history of users on this terminal
 
+
 # Main
+
+
+var="You are doing great, keep going!"
 login () {
  exec last   
 }
-
-
-count=$(who | grep $USER | wc -l)
-echo "$USER is logged on $count times."
+echo $var
 
 login
+
+
+
+echo "You are running $0"
+echo "Created by Andrew.$1"
+echo "Have a great day! $2"
 
 
 # End
