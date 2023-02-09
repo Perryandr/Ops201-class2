@@ -5,13 +5,18 @@
 # Date of lastest revision: 02/08/2023
 # Purpose: Print a history of users on this terminal
 
+
 # Main
+
+
+var="You are doing great, keep going!"
 login () {
  exec last   
 }
-
+echo $var
 
 login
+
 
 
 echo "You are running $0"
