@@ -10,11 +10,9 @@ login () {
  exec last   
 }
 
-
-count=$(who | grep $USER | wc -l)
-echo "$USER is logged on $count times."
-
-login
+echo "You are running $0"
+echo "Created by Andrew."
+echo "Have a great day!"
 
 
 # End
