@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Script: Ops 201 Class 02 Ops Challenge Solution
+# Author: Andrew P.
+# Date of lastest revision: 02/08/2023
+# Purpose: Create an array
+
+
+# Main
+
+#display all active processes
+display_processes() {
+echo "Display running processes:"
+ps -e
+}
+
+
+variable="candy"
+echo $var
+
+
+
+
+
+
+
+
+
+
+# End
