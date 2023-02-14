@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Script: Ops 201 Class 02 Ops Challenge Solution
+# Author: Andrew P.
+# Date of lastest revision: 02/13/2023
+# Purpose: To beat my head against a wall
+
+
+files=( "airway.txt" "breathing.txt"  "canyouwalktotheambulance.txt" )
+
+
+
+for file in "${files[@]}"; do
+  if [ ! -f "$file" ]; then
+    touch "$file"
+    echo "created file :$file"
+    else
+  
+    echo "File already exists"
+  
+  fi
+done
+
+  echo "${files[0]}"
+  echo "${files[1]}"
+  echo "${files[2]}"
