@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script: Ops 201 Class 02 Ops Challenge Solution
+# Script: Ops 201 Class 07 Ops Challenge Solution
 # Author: Andrew P.
 # Date of lastest revision: 02/14/2023
 # Purpose: To beat my head against a wall and list some information about a given machine.
