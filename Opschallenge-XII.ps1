@@ -8,14 +8,26 @@
 
 # Resources used were   Select-String from Microsoft learn website and Ethan's class lecture. 
 
+# function and variable are required
+# Create network_report.txt and write the output of ipconfig /all to it -variable here
+$savefile = "network_report.txt" 
+
+ipconfig /all > $savefile
 
 
-
-# Create network_report.txt and write the output of ipconfig /all to it
-ipconfig /all > network_report.txt
 
 # Use Select-String to find the IPv4 address and output it to the console
 Select-String -Path network_report.txt -Pattern 'IPv4 Address' 
 
-# Remove network_report.txt
+
+
+# Remove network_report.txt and function placed here
+
+
+Function removeitem {
 Remove-Item network_report.txt
+
+}
+
+
+removeitem
